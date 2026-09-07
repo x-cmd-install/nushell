@@ -5,15 +5,15 @@ about:
   head: 1f4036c
   archived: false
   latestVersion: "0.115.1"
-  collectedAt: 2026-09-07T05:47:32Z
+  collectedAt: 2026-09-07T18:41:35Z
 timeline:
   created: 2019-05-10
   lastCommit: 2026-09-06
   lastRelease: 2026-08-23
 popularity:
-  star: 40430
+  star: 40440
   watcher: 211
-  fork: 2245
+  fork: 2244
   release: 125
   contributor: 862
   pullRequest: 10513
@@ -34,7 +34,7 @@ recent:
     since: 2026-08-08
     release: 2
     mergedPR: 83
-    openPR: 33
+    openPR: 32
     closedIssue: 19
     openIssue: 19
     commit: 67
@@ -42,7 +42,7 @@ recent:
     since: 2026-07-09
     release: 3
     mergedPR: 218
-    openPR: 45
+    openPR: 44
     closedIssue: 51
     openIssue: 41
     commit: 211
@@ -50,7 +50,7 @@ recent:
     since: 2026-06-09
     release: 4
     mergedPR: 329
-    openPR: 48
+    openPR: 47
     closedIssue: 78
     openIssue: 56
     commit: 328
@@ -58,7 +58,7 @@ recent:
     since: 2026-03-11
     release: 8
     mergedPR: 666
-    openPR: 55
+    openPR: 54
     closedIssue: 180
     openIssue: 95
     commit: 695
@@ -66,7 +66,7 @@ recent:
     since: 2025-09-12
     release: 13
     mergedPR: 1188
-    openPR: 56
+    openPR: 55
     closedIssue: 397
     openIssue: 230
     commit: 1272
@@ -74,20 +74,20 @@ recent:
     since: 2024-09-17
     release: 27
     mergedPR: 2448
-    openPR: 56
+    openPR: 55
     closedIssue: 1079
     openIssue: 575
     commit: 2492
 total:
   release: 125
   mergedPR: 9173
-  openPR: 56
+  openPR: 55
   closedIssue: 5930
   openIssue: 1378
   commit: 11835
 ---
 path: /home/runner/.x-repo/github.com/nushell/nushell
-collectedAt: 2026-09-07T05:47:41Z
+collectedAt: 2026-09-07T18:41:45Z
 loc:
   Rust:
     code: 355031
@@ -285,7 +285,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:47:43+00:00
+  collectedAt: 2026-09-07T18:41:48+00:00
   platform:
     darwin/arm64:
       name:  nu-0.115.1-aarch64-apple-darwin.tar.gz
