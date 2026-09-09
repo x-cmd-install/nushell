@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 73898942,
       "digest": "sha256:2e6ed1eb043869ff05b5f2448a8c443e4d3a93557ba4303b21008a0523c96734",
-      "download_count": 5014,
+      "download_count": 5417,
       "created_at": "2026-08-23T08:34:32Z",
       "updated_at": "2026-08-23T08:34:35Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-aarch64-apple-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 39546880,
       "digest": "sha256:972a923bd47e0f1e67b94f6f46cdd9f09df8e65f11904915846bf35264a43262",
-      "download_count": 213,
+      "download_count": 224,
       "created_at": "2026-08-23T08:43:20Z",
       "updated_at": "2026-08-23T08:43:21Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-aarch64-pc-windows-msvc.msi"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 53725626,
       "digest": "sha256:8f185bc965828208fc9824de32a2e65aa39fa59ebf0a3927dbd0bad1daeb24a1",
-      "download_count": 153,
+      "download_count": 161,
       "created_at": "2026-08-23T08:43:20Z",
       "updated_at": "2026-08-23T08:43:22Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-aarch64-pc-windows-msvc.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 79905925,
       "digest": "sha256:5c4a5bca0af5b070e903a68fa014cc24e6419d0ac9cec03a2948494b2d310e08",
-      "download_count": 1514,
+      "download_count": 1606,
       "created_at": "2026-08-23T08:38:23Z",
       "updated_at": "2026-08-23T08:38:26Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-aarch64-unknown-linux-gnu.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 79228514,
       "digest": "sha256:86a869f44c2abd37f4a4c215af78c8da058812b76fa131476d28e62fc0262a91",
-      "download_count": 1271,
+      "download_count": 1370,
       "created_at": "2026-08-23T08:37:45Z",
       "updated_at": "2026-08-23T08:37:48Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-aarch64-unknown-linux-musl.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 69430944,
       "digest": "sha256:cce1b7f02918fe026c9cebfee431c1116744b275c2b457044cb5ba7ba3b596b6",
-      "download_count": 39,
+      "download_count": 42,
       "created_at": "2026-08-23T08:30:39Z",
       "updated_at": "2026-08-23T08:30:41Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-loongarch64-unknown-linux-gnu.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 82319642,
       "digest": "sha256:0782944835f86fdb7867c3a564e3d5d937d1b80aa02a0c35b8dbae1af952be3b",
-      "download_count": 53,
+      "download_count": 54,
       "created_at": "2026-08-23T08:37:48Z",
       "updated_at": "2026-08-23T08:37:50Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-riscv64gc-unknown-linux-gnu.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 76717619,
       "digest": "sha256:0292f4b92af29cfe5d9c4b2ec06eeb325b705d1d6c19536a8bec2b75859b3485",
-      "download_count": 154,
+      "download_count": 160,
       "created_at": "2026-08-23T08:40:22Z",
       "updated_at": "2026-08-23T08:40:26Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-x86_64-apple-darwin.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 44781568,
       "digest": "sha256:447a676bde33d2e05080498c4475c3344020763b31683227903d2a2a4b391225",
-      "download_count": 684,
+      "download_count": 698,
       "created_at": "2026-08-23T09:00:17Z",
       "updated_at": "2026-08-23T09:00:19Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-x86_64-pc-windows-msvc.msi"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 59759609,
       "digest": "sha256:b83009cbc88021f4dc293c49320118886b78363f9a4bb14933d33c8803241f46",
-      "download_count": 7890,
+      "download_count": 8483,
       "created_at": "2026-08-23T09:00:17Z",
       "updated_at": "2026-08-23T09:00:22Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-x86_64-pc-windows-msvc.zip"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 77122755,
       "digest": "sha256:d11d825241f6504a3617c535fa725a9dd6d009c86d7b19fb3168b47635b9d8b0",
-      "download_count": 68196,
+      "download_count": 72454,
       "created_at": "2026-08-23T08:37:03Z",
       "updated_at": "2026-08-23T08:37:07Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-x86_64-unknown-linux-gnu.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 83545998,
       "digest": "sha256:8a9722177ddd421eba927b4baae4ae341a4d1c3434504be7b1b17d998bafdd87",
-      "download_count": 4014,
+      "download_count": 4268,
       "created_at": "2026-08-23T08:38:16Z",
       "updated_at": "2026-08-23T08:38:19Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/nu-0.115.1-x86_64-unknown-linux-musl.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 1637,
       "digest": "sha256:4cf9b3cbfd0dd96a260c67d3b1e73d3a96fc103eb7d088f346cc2f257cf2f56b",
-      "download_count": 2998,
+      "download_count": 3242,
       "created_at": "2026-08-23T09:00:40Z",
       "updated_at": "2026-08-23T09:00:40Z",
       "browser_download_url": "https://github.com/nushell/nushell/releases/download/0.115.1/SHA256SUMS"
