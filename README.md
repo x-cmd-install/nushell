@@ -14,11 +14,11 @@ x install nushell
 
 ## Code insight
 
-Total: **362,701** lines of code across **2014** files in the top 5 languages.
+Total: **362,722** lines of code across **2014** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 358,363 | 10,986 | 43,218 | 1868 |
+| Rust | 358,384 | 10,988 | 43,221 | 1868 |
 | Toml | 2,180 | 101 | 316 | 55 |
 | Json | 624 | 0 | 4 | 53 |
 | Yaml | 589 | 40 | 47 | 36 |
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 125 · **Merged PRs**: 9187 · **Open PRs**: 56 · **Closed issues**: 5935 · **Open issues**: 1386 · **Commits**: 11849
+- **Releases**: 125 · **Merged PRs**: 9188 · **Open PRs**: 55 · **Closed issues**: 5936 · **Open issues**: 1385 · **Commits**: 11850
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 85 | 33 | 21 | 27 | 83 |
-| last60d | 2026-07-12 | 2 | 215 | 44 | 50 | 49 | 227 |
-| 90d | 2026-06-12 | 4 | 325 | 48 | 79 | 65 | 344 |
-| last180d | 2026-03-14 | 8 | 667 | 55 | 178 | 104 | 711 |
-| 360d | 2025-09-15 | 13 | 1191 | 56 | 400 | 239 | 1288 |
-| last720d | 2024-09-20 | 26 | 2450 | 56 | 1076 | 582 | 2505 |
+| 30d | 2026-08-11 | 2 | 86 | 32 | 22 | 26 | 84 |
+| last60d | 2026-07-12 | 2 | 216 | 43 | 51 | 48 | 228 |
+| 90d | 2026-06-12 | 4 | 326 | 47 | 80 | 64 | 345 |
+| last180d | 2026-03-14 | 8 | 668 | 54 | 179 | 103 | 712 |
+| 360d | 2025-09-15 | 13 | 1192 | 55 | 401 | 238 | 1289 |
+| last720d | 2024-09-20 | 26 | 2451 | 55 | 1077 | 581 | 2506 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for nushell lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:24:11Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T22:37:11Z._
