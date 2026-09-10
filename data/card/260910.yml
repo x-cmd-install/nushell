@@ -2,28 +2,28 @@ about:
   description: "A new type of shell"
   license: MIT
   homepage: https://www.nushell.sh/
-  head: b263714
+  head: 0ffb26c
   archived: false
   latestVersion: "0.115.1"
   latestRelease: "0.115.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:48:52Z
+  collectedAt: 2026-09-10T17:58:46Z
 timeline:
   created: 2019-05-10
-  lastCommit: 2026-09-09
+  lastCommit: 2026-09-10
   lastVersion: 2026-08-23
   lastRelease: 2026-08-23
   lastPrerelease: 
 popularity:
-  star: 40467
+  star: 40472
   watcher: 211
-  fork: 2244
+  fork: 2246
   release: 125
-  contributor: 863
-  pullRequest: 10526
-  issue: 7318
+  contributor: 864
+  pullRequest: 10532
+  issue: 7321
 language:
-  Rust: 14501621
+  Rust: 14504770
   Nushell: 374525
   Nix: 8683
   Python: 8421
@@ -32,72 +32,72 @@ language:
   Shell: 3955
   PowerShell: 989
   Batchfile: 765
-totalBytes: 14908664
+totalBytes: 14911813
 recent:
   last30d:
     since: 2026-08-11
     release: 2
-    mergedPR: 78
-    openPR: 36
-    closedIssue: 19
-    openIssue: 26
-    commit: 76
+    mergedPR: 84
+    openPR: 34
+    closedIssue: 20
+    openIssue: 28
+    commit: 82
   last60d:
     since: 2026-07-12
     release: 2
-    mergedPR: 208
-    openPR: 47
-    closedIssue: 48
-    openIssue: 48
-    commit: 220
+    mergedPR: 214
+    openPR: 45
+    closedIssue: 49
+    openIssue: 50
+    commit: 226
   last90d:
     since: 2026-06-12
     release: 4
-    mergedPR: 318
-    openPR: 51
-    closedIssue: 77
-    openIssue: 64
-    commit: 337
+    mergedPR: 324
+    openPR: 49
+    closedIssue: 78
+    openIssue: 66
+    commit: 343
   last180d:
     since: 2026-03-14
     release: 8
-    mergedPR: 660
-    openPR: 58
-    closedIssue: 176
-    openIssue: 103
-    commit: 704
+    mergedPR: 666
+    openPR: 56
+    closedIssue: 177
+    openIssue: 105
+    commit: 710
   last360d:
     since: 2025-09-15
     release: 13
-    mergedPR: 1184
-    openPR: 59
-    closedIssue: 398
-    openIssue: 238
-    commit: 1281
+    mergedPR: 1190
+    openPR: 57
+    closedIssue: 399
+    openIssue: 240
+    commit: 1287
   last720d:
     since: 2024-09-20
     release: 26
-    mergedPR: 2443
-    openPR: 59
-    closedIssue: 1074
-    openIssue: 581
-    commit: 2498
+    mergedPR: 2449
+    openPR: 57
+    closedIssue: 1075
+    openIssue: 583
+    commit: 2504
 total:
   release: 125
-  mergedPR: 9180
-  openPR: 59
-  closedIssue: 5932
-  openIssue: 1386
-  commit: 11842
+  mergedPR: 9186
+  openPR: 57
+  closedIssue: 5933
+  openIssue: 1388
+  commit: 11848
 ---
 path: /home/runner/.x-repo/github.com/nushell/nushell
-collectedAt: 2026-09-10T05:49:04Z
+collectedAt: 2026-09-10T17:58:59Z
 loc:
   Rust:
-    code: 358259
-    comments: 10979
-    blanks: 43208
-    files: 1867
+    code: 358325
+    comments: 10986
+    blanks: 43215
+    files: 1868
   Toml:
     code: 2180
     comments: 101
@@ -169,10 +169,10 @@ loc:
     blanks: 0
     files: 25
 total:
-  code: 363656
-  comments: 26514
-  blanks: 47141
-  files: 2115
+  code: 363722
+  comments: 26524
+  blanks: 47148
+  files: 2116
 ---
 date: "2026-09-07"
 repo:
