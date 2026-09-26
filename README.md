@@ -14,11 +14,11 @@ x install nushell
 
 ## Code insight
 
-Total: **383,748** lines of code across **2093** files in the top 5 languages.
+Total: **383,832** lines of code across **2093** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 379,314 | 11,701 | 45,175 | 1945 |
+| Rust | 379,398 | 11,702 | 45,182 | 1945 |
 | Toml | 2,276 | 110 | 332 | 57 |
 | Json | 624 | 0 | 4 | 53 |
 | Yaml | 589 | 40 | 47 | 36 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,573 · **Forks**: 2,269 · **Open issues**: 7,334 · **Contributors**: 873
+- **Stars**: 40,577 · **Forks**: 2,268 · **Open issues**: 7,335 · **Contributors**: 874
 
 ## Totals (cumulative)
 
-- **Releases**: 125 · **Merged PRs**: 9239 · **Open PRs**: 53 · **Closed issues**: 5951 · **Open issues**: 1383 · **Commits**: 11903
+- **Releases**: 125 · **Merged PRs**: 9242 · **Open PRs**: 53 · **Closed issues**: 5952 · **Open issues**: 1383 · **Commits**: 11906
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 0 | 83 | 21 | 18 | 21 | 122 |
-| last60d | 2026-07-27 | 2 | 178 | 35 | 42 | 36 | 203 |
-| 90d | 2026-06-27 | 4 | 328 | 43 | 79 | 58 | 366 |
-| last180d | 2026-03-29 | 8 | 642 | 52 | 173 | 103 | 702 |
-| 360d | 2025-09-30 | 13 | 1206 | 53 | 395 | 229 | 1320 |
-| last720d | 2024-10-05 | 26 | 2447 | 53 | 1054 | 564 | 2496 |
+| 30d | 2026-08-27 | 0 | 85 | 21 | 18 | 22 | 125 |
+| last60d | 2026-07-28 | 2 | 173 | 35 | 42 | 36 | 206 |
+| 90d | 2026-06-28 | 4 | 330 | 43 | 80 | 57 | 369 |
+| last180d | 2026-03-30 | 8 | 641 | 52 | 174 | 103 | 705 |
+| 360d | 2025-10-01 | 13 | 1205 | 53 | 396 | 227 | 1323 |
+| last720d | 2024-10-06 | 26 | 2446 | 53 | 1055 | 564 | 2494 |
 
 ## Release assets
 
@@ -95,4 +95,4 @@ Install metadata for nushell lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:58:33Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:56:09Z._
