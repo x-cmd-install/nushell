@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,582 · **Forks**: 2,271 · **Open issues**: 7,339 · **Contributors**: 874
+- **Stars**: 40,589 · **Forks**: 2,272 · **Open issues**: 7,342 · **Contributors**: 874
 
 ## Totals (cumulative)
 
-- **Releases**: 126 · **Merged PRs**: 9243 · **Open PRs**: 61 · **Closed issues**: 5953 · **Open issues**: 1386 · **Commits**: 11907
+- **Releases**: 126 · **Merged PRs**: 9243 · **Open PRs**: 66 · **Closed issues**: 5954 · **Open issues**: 1388 · **Commits**: 11907
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 1 | 83 | 28 | 16 | 24 | 91 |
-| last60d | 2026-07-30 | 3 | 171 | 43 | 41 | 36 | 185 |
-| 90d | 2026-06-30 | 5 | 325 | 51 | 79 | 57 | 351 |
-| last180d | 2026-04-01 | 9 | 630 | 60 | 169 | 103 | 669 |
-| 360d | 2025-10-03 | 14 | 1199 | 61 | 392 | 229 | 1299 |
-| last720d | 2024-10-08 | 27 | 2441 | 61 | 1052 | 565 | 2490 |
+| 30d | 2026-08-30 | 1 | 82 | 30 | 16 | 26 | 91 |
+| last60d | 2026-07-31 | 3 | 170 | 48 | 42 | 38 | 185 |
+| 90d | 2026-07-01 | 5 | 321 | 56 | 80 | 59 | 351 |
+| last180d | 2026-04-02 | 9 | 627 | 65 | 167 | 103 | 669 |
+| 360d | 2025-10-04 | 14 | 1197 | 66 | 393 | 231 | 1299 |
+| last720d | 2024-10-09 | 27 | 2434 | 66 | 1048 | 566 | 2487 |
 
 ## Release assets
 
@@ -95,4 +95,4 @@ Install metadata for nushell lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:20:45Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T06:47:30Z._
