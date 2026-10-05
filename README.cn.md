@@ -14,12 +14,12 @@ x install nushell
 
 ## 代码洞察
 
-合计: **384,687** 行代码（覆盖前 5 种语言、共 **2092** 个文件）。
+合计: **384,795** 行代码（覆盖前 5 种语言、共 **2092** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 380,253 | 11,765 | 45,243 | 1944 |
-| Toml | 2,276 | 110 | 332 | 57 |
+| Rust | 380,362 | 11,814 | 45,254 | 1944 |
+| Toml | 2,275 | 111 | 332 | 57 |
 | Json | 624 | 0 | 4 | 53 |
 | Yaml | 589 | 40 | 47 | 36 |
 | Nix | 294 | 20 | 7 | 2 |
@@ -42,49 +42,49 @@ x install nushell
 
 ## 发布
 
-- **最新版本**: `0.116.0` (2026-09-26)
-- **最近提交**: 2026-10-02
+- **最新版本**: `0.116.1` (2026-10-04)
+- **最近提交**: 2026-10-05
 - **Release 含资产**: 16 个
 
 ## 流行度
 
-- **Star**: 40,619 · **Fork**: 2,288 · **开放 issue**: 7,351 · **贡献者**: 874
+- **Star**: 40,626 · **Fork**: 2,291 · **开放 issue**: 7,352 · **贡献者**: 876
 
 ## 累计统计
 
-- **发布数**: 126 · **已合并 PR**: 9255 · **开放 PR**: 79 · **已关闭 issue**: 5958 · **开放 issue**: 1393 · **提交数**: 11919
+- **发布数**: 127 · **已合并 PR**: 9262 · **开放 PR**: 79 · **已关闭 issue**: 5958 · **开放 issue**: 1394 · **提交数**: 11926
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 1 | 79 | 38 | 18 | 27 | 82 |
-| last60d | 2026-08-05 | 3 | 169 | 60 | 42 | 43 | 175 |
-| 90d | 2026-07-06 | 4 | 312 | 69 | 78 | 62 | 340 |
-| last180d | 2026-04-07 | 9 | 624 | 78 | 169 | 105 | 658 |
-| 360d | 2025-10-09 | 14 | 1198 | 79 | 390 | 232 | 1287 |
-| last720d | 2024-10-14 | 27 | 2420 | 79 | 1044 | 566 | 2469 |
+| 30d | 2026-09-05 | 2 | 84 | 36 | 18 | 27 | 90 |
+| last60d | 2026-08-06 | 4 | 175 | 60 | 41 | 44 | 183 |
+| 90d | 2026-07-07 | 5 | 317 | 69 | 76 | 63 | 348 |
+| last180d | 2026-04-08 | 10 | 626 | 78 | 168 | 106 | 666 |
+| 360d | 2025-10-10 | 15 | 1200 | 79 | 390 | 233 | 1295 |
+| last720d | 2024-10-15 | 28 | 2423 | 79 | 1042 | 565 | 2475 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [nu-0.116.0-aarch64-apple-darwin.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-aarch64-apple-darwin.tar.gz) | 72.1 MiB | `native/darwin/arm64` |
-| [nu-0.116.0-aarch64-pc-windows-msvc.msi](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-aarch64-pc-windows-msvc.msi) | 38.5 MiB | `native/win/arm64` |
-| [nu-0.116.0-aarch64-pc-windows-msvc.zip](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-aarch64-pc-windows-msvc.zip) | 51.9 MiB | `native/win/arm64` |
-| [nu-0.116.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-aarch64-unknown-linux-gnu.tar.gz) | 77.8 MiB | `native/linux/arm64/glibc` |
-| [nu-0.116.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-aarch64-unknown-linux-musl.tar.gz) | 77.1 MiB | `native/linux/arm64/musl` |
-| [nu-0.116.0-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-armv7-unknown-linux-gnueabihf.tar.gz) | 75.8 MiB | `native/linux/arm/glibc` |
-| [nu-0.116.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-armv7-unknown-linux-musleabihf.tar.gz) | 76.3 MiB | `native/linux/arm/musl` |
-| [nu-0.116.0-loongarch64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-loongarch64-unknown-linux-gnu.tar.gz) | 67.1 MiB | `native/unknown` |
-| [nu-0.116.0-loongarch64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-loongarch64-unknown-linux-musl.tar.gz) | 63.4 MiB | `native/unknown` |
-| [nu-0.116.0-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-riscv64gc-unknown-linux-gnu.tar.gz) | 80.5 MiB | `native/linux/riscv64/glibc` |
-| [nu-0.116.0-x86_64-apple-darwin.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-x86_64-apple-darwin.tar.gz) | 75.2 MiB | `native/darwin/x64` |
-| [nu-0.116.0-x86_64-pc-windows-msvc.msi](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-x86_64-pc-windows-msvc.msi) | 43.7 MiB | `native/win/x64` |
-| [nu-0.116.0-x86_64-pc-windows-msvc.zip](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-x86_64-pc-windows-msvc.zip) | 58.1 MiB | `native/win/x64` |
-| [nu-0.116.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-x86_64-unknown-linux-gnu.tar.gz) | 75.5 MiB | `native/linux/x64/glibc` |
-| [nu-0.116.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.0/nu-0.116.0-x86_64-unknown-linux-musl.tar.gz) | 81.9 MiB | `native/linux/x64/musl` |
-| [SHA256SUMS](https://github.com/nushell/nushell/releases/download/0.116.0/SHA256SUMS) | 1.6 KiB | `other` |
+| [nu-0.116.1-aarch64-apple-darwin.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-apple-darwin.tar.gz) | 72.1 MiB | `native/darwin/arm64` |
+| [nu-0.116.1-aarch64-pc-windows-msvc.msi](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-pc-windows-msvc.msi) | 38.5 MiB | `native/win/arm64` |
+| [nu-0.116.1-aarch64-pc-windows-msvc.zip](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-pc-windows-msvc.zip) | 51.9 MiB | `native/win/arm64` |
+| [nu-0.116.1-aarch64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-unknown-linux-gnu.tar.gz) | 77.8 MiB | `native/linux/arm64/glibc` |
+| [nu-0.116.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-unknown-linux-musl.tar.gz) | 77.1 MiB | `native/linux/arm64/musl` |
+| [nu-0.116.1-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-armv7-unknown-linux-gnueabihf.tar.gz) | 75.8 MiB | `native/linux/arm/glibc` |
+| [nu-0.116.1-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-armv7-unknown-linux-musleabihf.tar.gz) | 76.3 MiB | `native/linux/arm/musl` |
+| [nu-0.116.1-loongarch64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-loongarch64-unknown-linux-gnu.tar.gz) | 67.1 MiB | `native/unknown` |
+| [nu-0.116.1-loongarch64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-loongarch64-unknown-linux-musl.tar.gz) | 63.4 MiB | `native/unknown` |
+| [nu-0.116.1-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-riscv64gc-unknown-linux-gnu.tar.gz) | 80.5 MiB | `native/linux/riscv64/glibc` |
+| [nu-0.116.1-x86_64-apple-darwin.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-apple-darwin.tar.gz) | 75.2 MiB | `native/darwin/x64` |
+| [nu-0.116.1-x86_64-pc-windows-msvc.msi](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-pc-windows-msvc.msi) | 43.7 MiB | `native/win/x64` |
+| [nu-0.116.1-x86_64-pc-windows-msvc.zip](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-pc-windows-msvc.zip) | 58.0 MiB | `native/win/x64` |
+| [nu-0.116.1-x86_64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-unknown-linux-gnu.tar.gz) | 75.5 MiB | `native/linux/x64/glibc` |
+| [nu-0.116.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-unknown-linux-musl.tar.gz) | 81.9 MiB | `native/linux/x64/musl` |
+| [SHA256SUMS](https://github.com/nushell/nushell/releases/download/0.116.1/SHA256SUMS) | 1.6 KiB | `other` |
 
 ## 改进这些数据
 
@@ -95,4 +95,4 @@ nushell 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261004.yml` · 2026-10-04T06:44:55Z._
+_数据快照: `data/card/261005.yml` · 2026-10-05T06:29:56Z._
