@@ -1,12 +1,10 @@
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
+- repo: homebrew
+  srcname: nushell
   visiblename: nushell
-  version: 0.114.0
-  origversion: 0.114.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Modern shell for the GitHub era
 - repo: aerynos
   srcname: nushell
   visiblename: nushell
@@ -211,6 +209,14 @@
     - nibon7@163.com
   licenses:
     - MIT
+- repo: baulk
+  srcname: nu
+  binname: nu
+  visiblename: nu
+  version: 0.116.1
+  origversion: null
+  status: newest
+  summary: A modern shell written in Rust
 - repo: alpine_3_24
   subrepo: community
   srcname: nushell
@@ -377,14 +383,6 @@
   summary: A new type of shell
   licenses:
     - MIT
-- repo: baulk
-  srcname: nu
-  binname: nu
-  visiblename: nu
-  version: 0.116.1
-  origversion: null
-  status: newest
-  summary: A modern shell written in Rust
 - repo: chimera
   subrepo: user
   srcname: nushell
@@ -463,6 +461,13 @@
   licenses:
     - MIT
 - repo: chocolatey
+  binname: nushell
+  visiblename: Nushell - A new type of shell
+  version: 0.116.1
+  origversion: null
+  status: newest
+  summary: A new type of shell
+- repo: chocolatey
   binname: nushell.install
   visiblename: Nushell - A new type of shell
   version: 0.116.1
@@ -476,13 +481,6 @@
   origversion: null
   status: newest
   summary: A new type of shell (Portable)
-- repo: chocolatey
-  binname: nushell
-  visiblename: Nushell - A new type of shell
-  version: 0.116.1
-  origversion: null
-  status: newest
-  summary: A new type of shell
 - repo: chromebrew
   srcname: nushell
   visiblename: nushell
@@ -653,15 +651,22 @@
     - MIT
   categories:
     - Unspecified
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.115.1
-  origversion: 0.115.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
+- repo: fedora_43
+  subrepo: release
+  srcname: rust-nu
+  binnames:
+    - nu
+    - rust-nu-debuginfo
+    - rust-nu-debugsource
+  visiblename: rust-nu
+  version: 0.99.1
+  origversion: 0.99.1-11.fc43
+  status: outdated
+  summary: New type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: fedora_43
   subrepo: updates
   srcname: nushell
@@ -694,7 +699,7 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_43
+- repo: fedora_44
   subrepo: release
   srcname: rust-nu
   binnames:
@@ -703,7 +708,7 @@
     - rust-nu-debugsource
   visiblename: rust-nu
   version: 0.99.1
-  origversion: 0.99.1-11.fc43
+  origversion: 0.99.1-16.fc44
   status: outdated
   summary: New type of shell
   licenses:
@@ -736,22 +741,6 @@
   visiblename: rust-nu
   version: 0.99.1
   origversion: 0.99.1-17.fc44
-  status: outdated
-  summary: New type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: rust-nu
-  binnames:
-    - nu
-    - rust-nu-debuginfo
-    - rust-nu-debugsource
-  visiblename: rust-nu
-  version: 0.99.1
-  origversion: 0.99.1-16.fc44
   status: outdated
   summary: New type of shell
   licenses:
@@ -836,15 +825,6 @@
     - ZLIB
   categories:
     - app-shells
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.115.0
-  origversion: 0.115.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: gentoo
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -910,13 +890,6 @@
   origversion: null
   status: newest
   summary: Modern shell for the GitHub era
-- repo: homebrew
-  srcname: nushell
-  visiblename: nushell
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Modern shell for the GitHub era
 - repo: liguros_stable
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -942,19 +915,6 @@
     - ZLIB
   categories:
     - app-shells
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: nushell
-  binname: nushell
-  visiblename: nushell
-  version: 0.115.1
-  origversion: 0.115.1_2
-  status: outdated
-  summary: Modern shell for the GitHub era
-  maintainers:
-    - voidisnull@duck.com
-  licenses:
-    - MIT
 - repo: liguros_stable
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -1030,19 +990,6 @@
     - ZLIB
   categories:
     - app-shells
-- repo: nix_stable_26_05
-  srcname: nushell
-  visiblename: nushell
-  version: 0.112.2
-  origversion: null
-  status: outdated
-  summary: Modern shell written in Rust
-  maintainers:
-    - huyuumi.dev@gmail.com
-    - hi@joaquint.io
-    - xiaoyin_c@qq.com
-  licenses:
-    - MIT
 - repo: liguros_develop
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -1258,15 +1205,19 @@
     - xiaoyin_c@qq.com
   licenses:
     - MIT
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
+- repo: nix_stable_26_05
+  srcname: nushell
   visiblename: nushell
-  version: 0.116.1
-  origversion: 0.116.1-1~ops2deb
-  status: newest
+  version: 0.112.2
+  origversion: null
+  status: outdated
+  summary: Modern shell written in Rust
   maintainers:
-    - ops2deb@upciti.com
+    - huyuumi.dev@gmail.com
+    - hi@joaquint.io
+    - xiaoyin_c@qq.com
+  licenses:
+    - MIT
 - repo: nix_unstable
   srcname: nushell
   visiblename: nushell
@@ -1342,7 +1293,7 @@
     - nushell-plugin_stress_internals
   visiblename: nushell
   version: 0.116.1
-  origversion: 0.116.1-72.6
+  origversion: 0.116.1-72.10
   status: newest
   summary: A new type of shell
   licenses:
@@ -1456,15 +1407,6 @@
     - MIT
   categories:
     - extra/shell
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.116.0
-  origversion: 0.116.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: termux
   srcname: nushell
   binname: nushell
@@ -1619,12 +1561,70 @@
     - MIT
   categories:
     - Development/Debug
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: nushell
+  binname: nushell
+  visiblename: nushell
+  version: 0.115.1
+  origversion: 0.115.1_2
+  status: outdated
+  summary: Modern shell for the GitHub era
+  maintainers:
+    - voidisnull@duck.com
+  licenses:
+    - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.116.1
+  origversion: 0.116.1-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.116.0
+  origversion: 0.116.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.115.1
+  origversion: 0.115.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.115.0
+  origversion: 0.115.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: terminal
   binname: nushell
   visiblename: nushell
   version: 0.114.1
   origversion: 0.114.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.114.0
+  origversion: 0.114.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
