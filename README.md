@@ -14,11 +14,11 @@ x install nushell
 
 ## Code insight
 
-Total: **403,736** lines of code across **2126** files in the top 5 languages.
+Total: **408,904** lines of code across **2134** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 399,301 | 12,860 | 46,776 | 1978 |
+| Rust | 404,469 | 12,960 | 47,052 | 1986 |
 | Toml | 2,278 | 115 | 334 | 57 |
 | Json | 624 | 0 | 4 | 53 |
 | Yaml | 589 | 40 | 47 | 36 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,719 · **Forks**: 2,313 · **Open issues**: 7,397 · **Contributors**: 903
+- **Stars**: 40,721 · **Forks**: 2,312 · **Open issues**: 7,398 · **Contributors**: 903
 
 ## Totals (cumulative)
 
-- **Releases**: 127 · **Merged PRs**: 9391 · **Open PRs**: 62 · **Closed issues**: 6023 · **Open issues**: 1374 · **Commits**: 12058
+- **Releases**: 127 · **Merged PRs**: 9394 · **Open PRs**: 61 · **Closed issues**: 6023 · **Open issues**: 1375 · **Commits**: 12061
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 2 | 144 | 26 | 32 | 31 | 154 |
-| last60d | 2026-08-25 | 2 | 239 | 42 | 58 | 46 | 281 |
-| 90d | 2026-07-26 | 4 | 334 | 48 | 85 | 58 | 368 |
-| last180d | 2026-04-27 | 8 | 692 | 59 | 185 | 97 | 737 |
-| 360d | 2025-10-29 | 14 | 1286 | 61 | 410 | 221 | 1390 |
-| last720d | 2024-11-03 | 26 | 2493 | 62 | 1047 | 545 | 2531 |
+| 30d | 2026-09-25 | 2 | 143 | 26 | 32 | 31 | 145 |
+| last60d | 2026-08-26 | 2 | 236 | 35 | 58 | 45 | 259 |
+| 90d | 2026-07-27 | 4 | 334 | 46 | 84 | 58 | 344 |
+| last180d | 2026-04-28 | 8 | 694 | 57 | 184 | 98 | 727 |
+| 360d | 2025-10-30 | 14 | 1289 | 60 | 409 | 221 | 1378 |
+| last720d | 2024-11-04 | 26 | 2493 | 61 | 1044 | 545 | 2532 |
 
 ## Release assets
 
@@ -93,7 +93,7 @@ Reported by **169** distros on [repology.org](https://repology.org/project/nushe
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `0.116.1` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `0.116.1` | ✅ latest |
 | Fedora rawhide | `0.99.1` | ⚠️ outdated |
 | Nix unstable | `0.116.1` | ✅ latest |
 | Void | `0.115.1` | ⚠️ outdated |
@@ -109,4 +109,4 @@ Install metadata for nushell lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T05:24:55Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T05:30:31Z._
