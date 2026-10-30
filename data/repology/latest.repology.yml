@@ -1,7 +1,7 @@
-- repo: nix_stable_24_11
+- repo: nix_stable_25_11
   srcname: nushell
   visiblename: nushell
-  version: 0.100.0
+  version: 0.108.0
   origversion: null
   status: outdated
   summary: Modern shell written in Rust
@@ -9,6 +9,7 @@
     - brightone@protonmail.com
     - huyuumi.dev@gmail.com
     - hi@joaquint.io
+    - xiaoyin_c@qq.com
   licenses:
     - MIT
 - repo: aerynos
@@ -59,18 +60,6 @@
     - nibon7@163.com
   licenses:
     - MIT
-- repo: aosc
-  srcname: app-shells/nushell
-  binname: nushell
-  visiblename: nushell
-  version: 0.115.0
-  origversion: null
-  status: outdated
-  summary: A cross-platform shell with structured data handling
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - shells
 - repo: alpine_3_20
   subrepo: community
   srcname: nushell
@@ -121,17 +110,6 @@
   summary: A new type of shell
   maintainers:
     - nibon7@163.com
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: nushell
-  binname: nushell-plugin-formats
-  visiblename: nushell-plugin-formats
-  version: 0.116.1
-  origversion: 0.116.1-r0
-  status: newest
-  summary: Shell with a focus on structured data (formats plugin)
   licenses:
     - MIT
 - repo: alpine_3_21
@@ -262,17 +240,6 @@
   summary: A new type of shell (documentation)
   maintainers:
     - nibon7@163.com
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: nushell
-  binname: nushell-plugin-gstat
-  visiblename: nushell-plugin-gstat
-  version: 0.116.1
-  origversion: 0.116.1-r0
-  status: newest
-  summary: Shell with a focus on structured data (gstat plugin)
   licenses:
     - MIT
 - repo: alpine_3_24
@@ -369,6 +336,18 @@
     - MIT
   categories:
     - Terminals
+- repo: aosc
+  srcname: app-shells/nushell
+  binname: nushell
+  visiblename: nushell
+  version: 0.115.0
+  origversion: null
+  status: outdated
+  summary: A cross-platform shell with structured data handling
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - shells
 - repo: arch
   subrepo: extra
   srcname: nushell
@@ -431,6 +410,28 @@
   origversion: 0.116.1-r0
   status: newest
   summary: Shell with a focus on structured data (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: nushell
+  binname: nushell-plugin-formats
+  visiblename: nushell-plugin-formats
+  version: 0.116.1
+  origversion: 0.116.1-r0
+  status: newest
+  summary: Shell with a focus on structured data (formats plugin)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: nushell
+  binname: nushell-plugin-gstat
+  visiblename: nushell-plugin-gstat
+  version: 0.116.1
+  origversion: 0.116.1-r0
+  status: newest
+  summary: Shell with a focus on structured data (gstat plugin)
   licenses:
     - MIT
 - repo: chimera
@@ -625,6 +626,15 @@
     - MIT
   categories:
     - Unspecified
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.116.1
+  origversion: 0.116.1-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
 - repo: fedora_42
   subrepo: release
   srcname: rust-nu
@@ -706,6 +716,22 @@
   categories:
     - Unspecified
 - repo: fedora_44
+  subrepo: release
+  srcname: rust-nu
+  binnames:
+    - nu
+    - rust-nu-debuginfo
+    - rust-nu-debugsource
+  visiblename: rust-nu
+  version: 0.99.1
+  origversion: 0.99.1-16.fc44
+  status: outdated
+  summary: New type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
   subrepo: updates
   srcname: nushell
   binnames:
@@ -731,22 +757,6 @@
   visiblename: rust-nu
   version: 0.99.1
   origversion: 0.99.1-17.fc44
-  status: outdated
-  summary: New type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: rust-nu
-  binnames:
-    - nu
-    - rust-nu-debuginfo
-    - rust-nu-debugsource
-  visiblename: rust-nu
-  version: 0.99.1
-  origversion: 0.99.1-16.fc44
   status: outdated
   summary: New type of shell
   licenses:
@@ -781,6 +791,32 @@
     - yuri@freebsd.org
   categories:
     - shells
+- repo: nix_stable_24_05
+  srcname: nushellFull
+  visiblename: nushell
+  version: 0.93.0
+  origversion: null
+  status: outdated
+  summary: A modern shell written in Rust
+  maintainers:
+    - brightone@protonmail.com
+    - huyuumi.dev@gmail.com
+    - hi@joaquint.io
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: nushell
+  visiblename: nushell
+  version: 0.100.0
+  origversion: null
+  status: outdated
+  summary: Modern shell written in Rust
+  maintainers:
+    - brightone@protonmail.com
+    - huyuumi.dev@gmail.com
+    - hi@joaquint.io
+  licenses:
+    - MIT
 - repo: gentoo
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -953,17 +989,18 @@
     - ZLIB
   categories:
     - app-shells
-- repo: nix_stable_24_05
-  srcname: nushellFull
+- repo: nix_stable_25_05
+  srcname: nushell
   visiblename: nushell
-  version: 0.93.0
+  version: 0.104.0
   origversion: null
   status: outdated
-  summary: A modern shell written in Rust
+  summary: Modern shell written in Rust
   maintainers:
     - brightone@protonmail.com
     - huyuumi.dev@gmail.com
     - hi@joaquint.io
+    - xiaoyin_c@qq.com
   licenses:
     - MIT
 - repo: liguros_stable
@@ -1177,34 +1214,6 @@
     - hi@joaquint.io
   licenses:
     - MIT
-- repo: nix_stable_25_05
-  srcname: nushell
-  visiblename: nushell
-  version: 0.104.0
-  origversion: null
-  status: outdated
-  summary: Modern shell written in Rust
-  maintainers:
-    - brightone@protonmail.com
-    - huyuumi.dev@gmail.com
-    - hi@joaquint.io
-    - xiaoyin_c@qq.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: nushell
-  visiblename: nushell
-  version: 0.108.0
-  origversion: null
-  status: outdated
-  summary: Modern shell written in Rust
-  maintainers:
-    - brightone@protonmail.com
-    - huyuumi.dev@gmail.com
-    - hi@joaquint.io
-    - xiaoyin_c@qq.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: nushell
   visiblename: nushell
@@ -1279,6 +1288,15 @@
     - MIT
   categories:
     - Unspecified
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.116.0
+  origversion: 0.116.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: opensuse_shells_tumbleweed
   srcname: nushell
   binnames:
@@ -1574,24 +1592,6 @@
     - voidisnull@duck.com
   licenses:
     - MIT
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.116.1
-  origversion: 0.116.1-1~ops2deb
-  status: newest
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.116.0
-  origversion: 0.116.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: terminal
   binname: nushell
