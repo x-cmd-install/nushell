@@ -14,12 +14,12 @@ x install nushell
 
 ## Code insight
 
-Total: **411,401** lines of code across **2136** files in the top 5 languages.
+Total: **412,726** lines of code across **2132** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 406,963 | 13,078 | 47,262 | 1988 |
-| Toml | 2,281 | 115 | 334 | 57 |
+| Rust | 408,289 | 13,111 | 47,380 | 1984 |
+| Toml | 2,280 | 115 | 334 | 57 |
 | Json | 624 | 0 | 4 | 53 |
 | Yaml | 589 | 40 | 47 | 36 |
 | Nix | 293 | 20 | 7 | 2 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `0.116.1` (2026-10-04)
-- **Last commit**: 2026-10-30
+- **Last commit**: 2026-10-31
 - **Assets in release**: 16
 
 ## Popularity
 
-- **Stars**: 40,751 · **Forks**: 2,319 · **Open issues**: 7,409 · **Contributors**: 908
+- **Stars**: 40,757 · **Forks**: 2,318 · **Open issues**: 7,410 · **Contributors**: 909
 
 ## Totals (cumulative)
 
-- **Releases**: 127 · **Merged PRs**: 9424 · **Open PRs**: 70 · **Closed issues**: 6033 · **Open issues**: 1376 · **Commits**: 12091
+- **Releases**: 127 · **Merged PRs**: 9432 · **Open PRs**: 69 · **Closed issues**: 6036 · **Open issues**: 1374 · **Commits**: 12099
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 1 | 152 | 30 | 34 | 28 | 176 |
-| last60d | 2026-09-01 | 2 | 253 | 40 | 60 | 45 | 290 |
-| 90d | 2026-08-02 | 4 | 348 | 55 | 88 | 59 | 375 |
-| last180d | 2026-05-04 | 8 | 708 | 64 | 186 | 99 | 758 |
-| 360d | 2025-11-05 | 14 | 1305 | 69 | 411 | 217 | 1409 |
-| last720d | 2024-11-10 | 26 | 2505 | 70 | 1038 | 538 | 2538 |
+| 30d | 2026-10-02 | 1 | 156 | 27 | 36 | 26 | 153 |
+| last60d | 2026-09-02 | 2 | 256 | 38 | 62 | 44 | 280 |
+| 90d | 2026-08-03 | 4 | 354 | 53 | 89 | 58 | 367 |
+| last180d | 2026-05-05 | 8 | 714 | 63 | 188 | 98 | 752 |
+| 360d | 2025-11-06 | 14 | 1313 | 68 | 413 | 214 | 1406 |
+| last720d | 2024-11-11 | 26 | 2508 | 69 | 1040 | 534 | 2543 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for nushell lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:37:59Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:59:20Z._
