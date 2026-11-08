@@ -1,3 +1,25 @@
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.115.0
+  origversion: 0.115.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: nix_stable_24_05
+  srcname: nushellFull
+  visiblename: nushell
+  version: 0.93.0
+  origversion: null
+  status: outdated
+  summary: A modern shell written in Rust
+  maintainers:
+    - brightone@protonmail.com
+    - huyuumi.dev@gmail.com
+    - hi@joaquint.io
+  licenses:
+    - MIT
 - repo: aerynos
   srcname: nushell
   visiblename: nushell
@@ -176,17 +198,6 @@
     - nibon7@163.com
   licenses:
     - MIT
-- repo: arch
-  subrepo: extra
-  srcname: nushell
-  binname: nushell
-  visiblename: nushell
-  version: 0.116.1
-  origversion: 0.116.1-1
-  status: newest
-  summary: A new type of shell
-  licenses:
-    - MIT
 - repo: alpine_3_23
   subrepo: community
   srcname: nushell
@@ -345,6 +356,17 @@
     - fallback-mnt-aosc@repology
   categories:
     - shells
+- repo: arch
+  subrepo: extra
+  srcname: nushell
+  binname: nushell
+  visiblename: nushell
+  version: 0.116.1
+  origversion: 0.116.1-1
+  status: newest
+  summary: A new type of shell
+  licenses:
+    - MIT
 - repo: arch_testing
   subrepo: extra-testing
   srcname: nushell
@@ -356,6 +378,15 @@
   summary: A new type of shell
   licenses:
     - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.116.0
+  origversion: 0.116.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: aur
   srcname: nushell-git
   binname: nushell-git
@@ -667,22 +698,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: rust-nu
-  binnames:
-    - nu
-    - rust-nu-debuginfo
-    - rust-nu-debugsource
-  visiblename: rust-nu
-  version: 0.99.1
-  origversion: 0.99.1-11.fc43
-  status: outdated
-  summary: New type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: nushell
   binnames:
@@ -714,7 +729,7 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_44
+- repo: fedora_43
   subrepo: release
   srcname: rust-nu
   binnames:
@@ -723,7 +738,7 @@
     - rust-nu-debugsource
   visiblename: rust-nu
   version: 0.99.1
-  origversion: 0.99.1-16.fc44
+  origversion: 0.99.1-11.fc43
   status: outdated
   summary: New type of shell
   licenses:
@@ -762,19 +777,22 @@
     - MIT
   categories:
     - Unspecified
-- repo: t2
-  srcname: nushell
-  visiblename: nushell
-  version: 0.116.1
-  origversion: null
-  status: newest
-  summary: A new type of shell
-  maintainers:
-    - rene@exactco.de
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-nu
+  binnames:
+    - nu
+    - rust-nu-debuginfo
+    - rust-nu-debugsource
+  visiblename: rust-nu
+  version: 0.99.1
+  origversion: 0.99.1-16.fc44
+  status: outdated
+  summary: New type of shell
   licenses:
     - MIT
   categories:
-    - extra/shell
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: nushell
@@ -853,15 +871,6 @@
     - ZLIB
   categories:
     - app-shells
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.115.1
-  origversion: 0.115.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: gentoo
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -1034,19 +1043,6 @@
     - ZLIB
   categories:
     - app-shells
-- repo: nix_stable_26_05
-  srcname: nushell
-  visiblename: nushell
-  version: 0.112.2
-  origversion: null
-  status: outdated
-  summary: Modern shell written in Rust
-  maintainers:
-    - huyuumi.dev@gmail.com
-    - hi@joaquint.io
-    - xiaoyin_c@qq.com
-  licenses:
-    - MIT
 - repo: liguros_develop
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -1097,15 +1093,6 @@
     - ZLIB
   categories:
     - app-shells
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.116.0
-  origversion: 0.116.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: liguros_develop
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -1217,19 +1204,6 @@
     - hi@joaquint.io
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: nushellFull
-  visiblename: nushell
-  version: 0.93.0
-  origversion: null
-  status: outdated
-  summary: A modern shell written in Rust
-  maintainers:
-    - brightone@protonmail.com
-    - huyuumi.dev@gmail.com
-    - hi@joaquint.io
-  licenses:
-    - MIT
 - repo: nix_stable_24_11
   srcname: nushell
   visiblename: nushell
@@ -1271,15 +1245,19 @@
     - xiaoyin_c@qq.com
   licenses:
     - MIT
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
+- repo: nix_stable_26_05
+  srcname: nushell
   visiblename: nushell
-  version: 0.116.1
-  origversion: 0.116.1-1~ops2deb
-  status: newest
+  version: 0.112.2
+  origversion: null
+  status: outdated
+  summary: Modern shell written in Rust
   maintainers:
-    - ops2deb@upciti.com
+    - huyuumi.dev@gmail.com
+    - hi@joaquint.io
+    - xiaoyin_c@qq.com
+  licenses:
+    - MIT
 - repo: nix_unstable
   srcname: nushell
   visiblename: nushell
@@ -1330,6 +1308,15 @@
     - MIT
   categories:
     - Unspecified
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.115.1
+  origversion: 0.115.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: opensuse_shells_tumbleweed
   srcname: nushell
   binnames:
@@ -1445,6 +1432,19 @@
     - MIT
   categories:
     - debug
+- repo: t2
+  srcname: nushell
+  visiblename: nushell
+  version: 0.116.1
+  origversion: null
+  status: newest
+  summary: A new type of shell
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/shell
 - repo: termux
   srcname: nushell
   binname: nushell
@@ -1616,9 +1616,9 @@
   subrepo: terminal
   binname: nushell
   visiblename: nushell
-  version: 0.115.0
-  origversion: 0.115.0-1~ops2deb
-  status: legacy
+  version: 0.116.1
+  origversion: 0.116.1-1~ops2deb
+  status: newest
   maintainers:
     - ops2deb@upciti.com
 - repo: wakemeops
