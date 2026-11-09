@@ -2,8 +2,8 @@
   subrepo: terminal
   binname: nushell
   visiblename: nushell
-  version: 0.115.0
-  origversion: 0.115.0-1~ops2deb
+  version: 0.105.0
+  origversion: 0.105.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -378,15 +378,6 @@
   summary: A new type of shell
   licenses:
     - MIT
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.116.0
-  origversion: 0.116.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: aur
   srcname: nushell-git
   binname: nushell-git
@@ -698,6 +689,22 @@
   categories:
     - Unspecified
 - repo: fedora_43
+  subrepo: release
+  srcname: rust-nu
+  binnames:
+    - nu
+    - rust-nu-debuginfo
+    - rust-nu-debugsource
+  visiblename: rust-nu
+  version: 0.99.1
+  origversion: 0.99.1-11.fc43
+  status: outdated
+  summary: New type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
   subrepo: updates
   srcname: nushell
   binnames:
@@ -723,22 +730,6 @@
   visiblename: rust-nu
   version: 0.99.1
   origversion: 0.99.1-17.fc43
-  status: outdated
-  summary: New type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: rust-nu
-  binnames:
-    - nu
-    - rust-nu-debuginfo
-    - rust-nu-debugsource
-  visiblename: rust-nu
-  version: 0.99.1
-  origversion: 0.99.1-11.fc43
   status: outdated
   summary: New type of shell
   licenses:
@@ -1308,15 +1299,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.115.1
-  origversion: 0.115.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: opensuse_shells_tumbleweed
   srcname: nushell
   binnames:
@@ -1625,6 +1607,33 @@
   subrepo: terminal
   binname: nushell
   visiblename: nushell
+  version: 0.116.0
+  origversion: 0.116.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.115.1
+  origversion: 0.115.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
+  version: 0.115.0
+  origversion: 0.115.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: nushell
+  visiblename: nushell
   version: 0.114.1
   origversion: 0.114.1-1~ops2deb
   status: legacy
@@ -1744,15 +1753,6 @@
   visiblename: nushell
   version: 0.105.1
   origversion: 0.105.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: nushell
-  visiblename: nushell
-  version: 0.105.0
-  origversion: 0.105.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
