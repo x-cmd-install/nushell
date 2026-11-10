@@ -14,23 +14,23 @@ x install nushell
 
 ## 代码洞察
 
-合计: **418,225** 行代码（覆盖前 5 种语言、共 **2139** 个文件）。
+合计: **418,236** 行代码（覆盖前 5 种语言、共 **2139** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 413,783 | 13,488 | 47,797 | 1991 |
-| Toml | 2,285 | 115 | 334 | 57 |
+| Rust | 413,795 | 13,488 | 47,797 | 1991 |
+| Toml | 2,284 | 116 | 334 | 57 |
 | Json | 624 | 0 | 4 | 53 |
 | Yaml | 589 | 40 | 47 | 36 |
 | Nix | 293 | 20 | 7 | 2 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.1 / 10**
+总评分: **6 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (4/10) — Found 12/30 approved changesets -- score normalized to 4
+- **Code-Review** (3/10) — Found 8/25 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -42,63 +42,63 @@ x install nushell
 
 ## 发布
 
-- **最新版本**: `0.116.1` (2026-10-04)
-- **最近提交**: 2026-11-08
+- **最新版本**: `0.117.0` (2026-11-10)
+- **最近提交**: 2026-11-09
 - **Release 含资产**: 16 个
 
 ## 流行度
 
-- **Star**: 41,068 · **Fork**: 2,346 · **开放 issue**: 7,426 · **贡献者**: 909
+- **Star**: 41,079 · **Fork**: 2,351 · **开放 issue**: 7,426 · **贡献者**: 909
 
 ## 累计统计
 
-- **发布数**: 127 · **已合并 PR**: 9460 · **开放 PR**: 81 · **已关闭 issue**: 6048 · **开放 issue**: 1378 · **提交数**: 12127
+- **发布数**: 128 · **已合并 PR**: 9462 · **开放 PR**: 84 · **已关闭 issue**: 6049 · **开放 issue**: 1377 · **提交数**: 12129
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 142 | 44 | 29 | 30 | 138 |
-| last60d | 2026-09-10 | 2 | 261 | 56 | 59 | 46 | 286 |
-| 90d | 2026-08-11 | 4 | 358 | 69 | 91 | 61 | 370 |
-| last180d | 2026-05-13 | 8 | 720 | 77 | 190 | 104 | 756 |
-| 360d | 2025-11-14 | 14 | 1327 | 81 | 415 | 212 | 1423 |
-| last720d | 2024-11-19 | 25 | 2498 | 81 | 1037 | 530 | 2541 |
+| 30d | 2026-10-11 | 1 | 140 | 46 | 27 | 30 | 140 |
+| last60d | 2026-09-11 | 3 | 261 | 59 | 58 | 45 | 288 |
+| 90d | 2026-08-12 | 5 | 354 | 72 | 91 | 61 | 372 |
+| last180d | 2026-05-14 | 9 | 717 | 80 | 187 | 104 | 758 |
+| 360d | 2025-11-15 | 15 | 1327 | 84 | 414 | 210 | 1425 |
+| last720d | 2024-11-20 | 26 | 2494 | 84 | 1036 | 529 | 2538 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [nu-0.116.1-aarch64-apple-darwin.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-apple-darwin.tar.gz) | 72.1 MiB | `native/darwin/arm64` |
-| [nu-0.116.1-aarch64-pc-windows-msvc.msi](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-pc-windows-msvc.msi) | 38.5 MiB | `native/win/arm64` |
-| [nu-0.116.1-aarch64-pc-windows-msvc.zip](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-pc-windows-msvc.zip) | 51.9 MiB | `native/win/arm64` |
-| [nu-0.116.1-aarch64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-unknown-linux-gnu.tar.gz) | 77.8 MiB | `native/linux/arm64/glibc` |
-| [nu-0.116.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-unknown-linux-musl.tar.gz) | 77.1 MiB | `native/linux/arm64/musl` |
-| [nu-0.116.1-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-armv7-unknown-linux-gnueabihf.tar.gz) | 75.8 MiB | `native/linux/arm/glibc` |
-| [nu-0.116.1-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-armv7-unknown-linux-musleabihf.tar.gz) | 76.3 MiB | `native/linux/arm/musl` |
-| [nu-0.116.1-loongarch64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-loongarch64-unknown-linux-gnu.tar.gz) | 67.1 MiB | `native/unknown` |
-| [nu-0.116.1-loongarch64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-loongarch64-unknown-linux-musl.tar.gz) | 63.4 MiB | `native/unknown` |
-| [nu-0.116.1-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-riscv64gc-unknown-linux-gnu.tar.gz) | 80.5 MiB | `native/linux/riscv64/glibc` |
-| [nu-0.116.1-x86_64-apple-darwin.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-apple-darwin.tar.gz) | 75.2 MiB | `native/darwin/x64` |
-| [nu-0.116.1-x86_64-pc-windows-msvc.msi](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-pc-windows-msvc.msi) | 43.7 MiB | `native/win/x64` |
-| [nu-0.116.1-x86_64-pc-windows-msvc.zip](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-pc-windows-msvc.zip) | 58.0 MiB | `native/win/x64` |
-| [nu-0.116.1-x86_64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-unknown-linux-gnu.tar.gz) | 75.5 MiB | `native/linux/x64/glibc` |
-| [nu-0.116.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-unknown-linux-musl.tar.gz) | 81.9 MiB | `native/linux/x64/musl` |
-| [SHA256SUMS](https://github.com/nushell/nushell/releases/download/0.116.1/SHA256SUMS) | 1.6 KiB | `other` |
+| [nu-0.117.0-aarch64-apple-darwin.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-aarch64-apple-darwin.tar.gz) | 70.5 MiB | `native/darwin/arm64` |
+| [nu-0.117.0-aarch64-pc-windows-msvc.msi](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-aarch64-pc-windows-msvc.msi) | 38.3 MiB | `native/win/arm64` |
+| [nu-0.117.0-aarch64-pc-windows-msvc.zip](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-aarch64-pc-windows-msvc.zip) | 51.1 MiB | `native/win/arm64` |
+| [nu-0.117.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-aarch64-unknown-linux-gnu.tar.gz) | 84.3 MiB | `native/linux/arm64/glibc` |
+| [nu-0.117.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-aarch64-unknown-linux-musl.tar.gz) | 84.1 MiB | `native/linux/arm64/musl` |
+| [nu-0.117.0-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-armv7-unknown-linux-gnueabihf.tar.gz) | 83.0 MiB | `native/linux/arm/glibc` |
+| [nu-0.117.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-armv7-unknown-linux-musleabihf.tar.gz) | 83.9 MiB | `native/linux/arm/musl` |
+| [nu-0.117.0-loongarch64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-loongarch64-unknown-linux-gnu.tar.gz) | 74.7 MiB | `native/unknown` |
+| [nu-0.117.0-loongarch64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-loongarch64-unknown-linux-musl.tar.gz) | 71.0 MiB | `native/unknown` |
+| [nu-0.117.0-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-riscv64gc-unknown-linux-gnu.tar.gz) | 87.7 MiB | `native/linux/riscv64/glibc` |
+| [nu-0.117.0-x86_64-apple-darwin.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-x86_64-apple-darwin.tar.gz) | 72.9 MiB | `native/darwin/x64` |
+| [nu-0.117.0-x86_64-pc-windows-msvc.msi](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-x86_64-pc-windows-msvc.msi) | 43.7 MiB | `native/win/x64` |
+| [nu-0.117.0-x86_64-pc-windows-msvc.zip](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-x86_64-pc-windows-msvc.zip) | 57.3 MiB | `native/win/x64` |
+| [nu-0.117.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-x86_64-unknown-linux-gnu.tar.gz) | 73.3 MiB | `native/linux/x64/glibc` |
+| [nu-0.117.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-x86_64-unknown-linux-musl.tar.gz) | 88.5 MiB | `native/linux/x64/musl` |
+| [SHA256SUMS](https://github.com/nushell/nushell/releases/download/0.117.0/SHA256SUMS) | 1.6 KiB | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/nushell) 上共有 **170** 个发行版报告此项目。**38** 个 ✅ 已是最新上游版本，**54** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/nushell) 上共有 **170** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**89** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Arch | `0.116.1` | ✅ latest |
-| Homebrew | `0.116.1` | ✅ latest |
+| Arch | `0.116.1` | ⚠️ outdated |
+| Homebrew | `0.116.1` | ⚠️ outdated |
 | Fedora rawhide | `0.99.1` | ⚠️ outdated |
-| Nix unstable | `0.116.1` | ✅ latest |
+| Nix unstable | `0.116.1` | ⚠️ outdated |
 | Void | `0.115.1` | ⚠️ outdated |
 | Alpine edge | `0.104.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.116.1` | ✅ latest |
+| openSUSE Tumbleweed | `0.116.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -109,4 +109,4 @@ nushell 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261109.yml` · 2026-11-09T07:29:21Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T08:24:24Z._
