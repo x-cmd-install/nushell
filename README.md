@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 41,079 · **Forks**: 2,351 · **Open issues**: 7,426 · **Contributors**: 909
+- **Stars**: 41,086 · **Forks**: 2,353 · **Open issues**: 7,431 · **Contributors**: 909
 
 ## Totals (cumulative)
 
-- **Releases**: 128 · **Merged PRs**: 9462 · **Open PRs**: 84 · **Closed issues**: 6049 · **Open issues**: 1377 · **Commits**: 12129
+- **Releases**: 128 · **Merged PRs**: 9462 · **Open PRs**: 97 · **Closed issues**: 6049 · **Open issues**: 1382 · **Commits**: 12129
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 1 | 140 | 46 | 27 | 30 | 140 |
-| last60d | 2026-09-11 | 3 | 261 | 59 | 58 | 45 | 288 |
-| 90d | 2026-08-12 | 5 | 354 | 72 | 91 | 61 | 372 |
-| last180d | 2026-05-14 | 9 | 717 | 80 | 187 | 104 | 758 |
-| 360d | 2025-11-15 | 15 | 1327 | 84 | 414 | 210 | 1425 |
-| last720d | 2024-11-20 | 26 | 2494 | 84 | 1036 | 529 | 2538 |
+| 30d | 2026-10-12 | 1 | 136 | 59 | 24 | 35 | 140 |
+| last60d | 2026-09-12 | 3 | 261 | 72 | 57 | 50 | 288 |
+| 90d | 2026-08-13 | 5 | 351 | 85 | 91 | 66 | 372 |
+| last180d | 2026-05-15 | 9 | 714 | 93 | 185 | 109 | 758 |
+| 360d | 2025-11-16 | 15 | 1326 | 97 | 412 | 215 | 1425 |
+| last720d | 2024-11-21 | 26 | 2490 | 97 | 1034 | 532 | 2531 |
 
 ## Release assets
 
@@ -88,12 +88,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **170** distros on [repology.org](https://repology.org/project/nushell). **3** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
+Reported by **169** distros on [repology.org](https://repology.org/project/nushell). **10** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `0.116.1` | ⚠️ outdated |
-| Homebrew | `0.116.1` | ⚠️ outdated |
+| Arch | `0.117.0` | ✅ latest |
+| Homebrew | `0.117.0` | ✅ latest |
 | Fedora rawhide | `0.99.1` | ⚠️ outdated |
 | Nix unstable | `0.116.1` | ⚠️ outdated |
 | Void | `0.115.1` | ⚠️ outdated |
@@ -109,4 +109,4 @@ Install metadata for nushell lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:24:23Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:32:09Z._
