@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 41,086 · **Forks**: 2,353 · **Open issues**: 7,431 · **Contributors**: 909
+- **Stars**: 41,000 · **Forks**: 2,337 · **Open issues**: 7,437 · **Contributors**: 909
 
 ## Totals (cumulative)
 
-- **Releases**: 128 · **Merged PRs**: 9462 · **Open PRs**: 97 · **Closed issues**: 6049 · **Open issues**: 1382 · **Commits**: 12129
+- **Releases**: 128 · **Merged PRs**: 9462 · **Open PRs**: 99 · **Closed issues**: 6050 · **Open issues**: 1387 · **Commits**: 12129
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 1 | 136 | 59 | 24 | 35 | 140 |
-| last60d | 2026-09-12 | 3 | 261 | 72 | 57 | 50 | 288 |
-| 90d | 2026-08-13 | 5 | 351 | 85 | 91 | 66 | 372 |
-| last180d | 2026-05-15 | 9 | 714 | 93 | 185 | 109 | 758 |
-| 360d | 2025-11-16 | 15 | 1326 | 97 | 412 | 215 | 1425 |
-| last720d | 2024-11-21 | 26 | 2490 | 97 | 1034 | 532 | 2531 |
+| 30d | 2026-10-13 | 1 | 133 | 61 | 23 | 39 | 140 |
+| last60d | 2026-09-13 | 3 | 259 | 74 | 57 | 54 | 288 |
+| 90d | 2026-08-14 | 5 | 343 | 87 | 92 | 69 | 372 |
+| last180d | 2026-05-16 | 9 | 709 | 95 | 185 | 114 | 758 |
+| 360d | 2025-11-17 | 15 | 1323 | 99 | 411 | 220 | 1425 |
+| last720d | 2024-11-22 | 26 | 2487 | 99 | 1035 | 535 | 2527 |
 
 ## Release assets
 
@@ -88,7 +88,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **169** distros on [repology.org](https://repology.org/project/nushell). **10** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
+Reported by **169** distros on [repology.org](https://repology.org/project/nushell). **13** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -109,4 +109,4 @@ Install metadata for nushell lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:32:09Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:33:42Z._
