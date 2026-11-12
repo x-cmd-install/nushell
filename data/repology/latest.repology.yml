@@ -1,16 +1,3 @@
-- repo: t2
-  srcname: nushell
-  visiblename: nushell
-  version: 0.116.1
-  origversion: null
-  status: outdated
-  summary: A new type of shell
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/shell
 - repo: aerynos
   srcname: nushell
   visiblename: nushell
@@ -582,22 +569,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: rust-nu
-  binnames:
-    - nu
-    - rust-nu-debuginfo
-    - rust-nu-debugsource
-  visiblename: rust-nu
-  version: 0.91.0
-  origversion: 0.91.0-1.fc40
-  status: legacy
-  summary: New type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: rust-nu
   binnames:
@@ -608,6 +579,22 @@
   version: 0.99.1
   origversion: 0.99.1-7.fc40
   status: outdated
+  summary: New type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: rust-nu
+  binnames:
+    - nu
+    - rust-nu-debuginfo
+    - rust-nu-debugsource
+  visiblename: rust-nu
+  version: 0.91.0
+  origversion: 0.91.0-1.fc40
+  status: legacy
   summary: New type of shell
   licenses:
     - MIT
@@ -726,22 +713,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: rust-nu
-  binnames:
-    - nu
-    - rust-nu-debuginfo
-    - rust-nu-debugsource
-  visiblename: rust-nu
-  version: 0.99.1
-  origversion: 0.99.1-16.fc44
-  status: outdated
-  summary: New type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: nushell
   binnames:
@@ -767,6 +738,22 @@
   visiblename: rust-nu
   version: 0.99.1
   origversion: 0.99.1-17.fc44
+  status: outdated
+  summary: New type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-nu
+  binnames:
+    - nu
+    - rust-nu-debuginfo
+    - rust-nu-debugsource
+  visiblename: rust-nu
+  version: 0.99.1
+  origversion: 0.99.1-16.fc44
   status: outdated
   summary: New type of shell
   licenses:
@@ -1389,9 +1376,9 @@
   srcname: shells/nushell
   binname: nushell
   visiblename: shells/nushell
-  version: 0.116.1
+  version: 0.117.0
   origversion: null
-  status: outdated
+  status: newest
   summary: New type of shell
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1434,6 +1421,19 @@
     - MIT
   categories:
     - debug
+- repo: t2
+  srcname: nushell
+  visiblename: nushell
+  version: 0.117.0
+  origversion: null
+  status: newest
+  summary: A new type of shell
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/shell
 - repo: wakemeops
   subrepo: terminal
   binname: nushell
@@ -2081,9 +2081,9 @@
 - repo: wikidata
   srcname: Q103695637
   visiblename: Nushell
-  version: 0.116.1
+  version: 0.117.0
   origversion: null
-  status: outdated
+  status: newest
   summary: shell with a focus on operating on structured data in the command line
   licenses:
     - MIT License
