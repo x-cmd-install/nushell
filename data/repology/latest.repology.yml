@@ -1,7 +1,20 @@
-- repo: nix_stable_25_11
+- repo: nix_stable_24_05
+  srcname: nushellFull
+  visiblename: nushell
+  version: 0.93.0
+  origversion: null
+  status: outdated
+  summary: A modern shell written in Rust
+  maintainers:
+    - brightone@protonmail.com
+    - huyuumi.dev@gmail.com
+    - hi@joaquint.io
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
   srcname: nushell
   visiblename: nushell
-  version: 0.108.0
+  version: 0.100.0
   origversion: null
   status: outdated
   summary: Modern shell written in Rust
@@ -9,7 +22,6 @@
     - brightone@protonmail.com
     - huyuumi.dev@gmail.com
     - hi@joaquint.io
-    - xiaoyin_c@qq.com
   licenses:
     - MIT
 - repo: aerynos
@@ -60,18 +72,6 @@
     - nibon7@163.com
   licenses:
     - MIT
-- repo: pkgsrc_2026_3
-  srcname: shells/nushell
-  binname: nushell
-  visiblename: shells/nushell
-  version: 0.115.1
-  origversion: null
-  status: outdated
-  summary: New type of shell
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - shells
 - repo: alpine_3_20
   subrepo: community
   srcname: nushell
@@ -398,9 +398,9 @@
   srcname: nu
   binname: nu
   visiblename: nu
-  version: 0.116.1
+  version: 0.117.0
   origversion: null
-  status: outdated
+  status: newest
   summary: A modern shell written in Rust
 - repo: chimera
   subrepo: user
@@ -671,6 +671,22 @@
   categories:
     - Unspecified
 - repo: fedora_43
+  subrepo: release
+  srcname: rust-nu
+  binnames:
+    - nu
+    - rust-nu-debuginfo
+    - rust-nu-debugsource
+  visiblename: rust-nu
+  version: 0.99.1
+  origversion: 0.99.1-11.fc43
+  status: outdated
+  summary: New type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
   subrepo: updates
   srcname: nushell
   binnames:
@@ -696,22 +712,6 @@
   visiblename: rust-nu
   version: 0.99.1
   origversion: 0.99.1-17.fc43
-  status: outdated
-  summary: New type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: rust-nu
-  binnames:
-    - nu
-    - rust-nu-debuginfo
-    - rust-nu-debugsource
-  visiblename: rust-nu
-  version: 0.99.1
-  origversion: 0.99.1-11.fc43
   status: outdated
   summary: New type of shell
   licenses:
@@ -794,23 +794,10 @@
     - yuri@freebsd.org
   categories:
     - shells
-- repo: nix_stable_24_05
-  srcname: nushellFull
-  visiblename: nushell
-  version: 0.93.0
-  origversion: null
-  status: outdated
-  summary: A modern shell written in Rust
-  maintainers:
-    - brightone@protonmail.com
-    - huyuumi.dev@gmail.com
-    - hi@joaquint.io
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
+- repo: nix_stable_25_05
   srcname: nushell
   visiblename: nushell
-  version: 0.100.0
+  version: 0.104.0
   origversion: null
   status: outdated
   summary: Modern shell written in Rust
@@ -818,6 +805,7 @@
     - brightone@protonmail.com
     - huyuumi.dev@gmail.com
     - hi@joaquint.io
+    - xiaoyin_c@qq.com
   licenses:
     - MIT
 - repo: gentoo
@@ -992,10 +980,10 @@
     - ZLIB
   categories:
     - app-shells
-- repo: nix_stable_25_05
+- repo: nix_stable_25_11
   srcname: nushell
   visiblename: nushell
-  version: 0.104.0
+  version: 0.108.0
   origversion: null
   status: outdated
   summary: Modern shell written in Rust
@@ -1336,6 +1324,18 @@
   binname: nushell
   visiblename: shells/nushell
   version: 0.113.1
+  origversion: null
+  status: outdated
+  summary: New type of shell
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - shells
+- repo: pkgsrc_2026_3
+  srcname: shells/nushell
+  binname: nushell
+  visiblename: shells/nushell
+  version: 0.115.1
   origversion: null
   status: outdated
   summary: New type of shell
