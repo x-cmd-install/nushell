@@ -14,11 +14,11 @@ x install nushell
 
 ## 代码洞察
 
-合计: **430,899** 行代码（覆盖前 5 种语言、共 **2150** 个文件）。
+合计: **432,518** 行代码（覆盖前 5 种语言、共 **2151** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 426,446 | 14,014 | 48,946 | 2002 |
+| Rust | 428,065 | 14,065 | 49,069 | 2003 |
 | Toml | 2,296 | 121 | 335 | 57 |
 | Json | 624 | 0 | 4 | 53 |
 | Yaml | 589 | 40 | 47 | 36 |
@@ -26,13 +26,13 @@ x install nushell
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6 / 10**
+总评分: **6.2 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 8/25 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install nushell
 ## 发布
 
 - **最新版本**: `0.117.0` (2026-11-10)
-- **最近提交**: 2026-11-16
+- **最近提交**: 2026-11-18
 - **Release 含资产**: 16 个
 
 ## 流行度
 
-- **Star**: 41,023 · **Fork**: 2,354 · **开放 issue**: 7,431 · **贡献者**: 929
+- **Star**: 41,036 · **Fork**: 2,359 · **开放 issue**: 7,435 · **贡献者**: 934
 
 ## 累计统计
 
-- **发布数**: 128 · **已合并 PR**: 9546 · **开放 PR**: 53 · **已关闭 issue**: 6764 · **开放 issue**: 667 · **提交数**: 12213
+- **发布数**: 128 · **已合并 PR**: 9565 · **开放 PR**: 49 · **已关闭 issue**: 6774 · **开放 issue**: 661 · **提交数**: 12233
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 1 | 165 | 22 | 40 | 24 | 175 |
-| last60d | 2026-09-18 | 3 | 319 | 34 | 81 | 40 | 339 |
-| 90d | 2026-08-19 | 4 | 413 | 46 | 110 | 53 | 452 |
-| last180d | 2026-05-21 | 9 | 773 | 50 | 216 | 90 | 827 |
-| 360d | 2025-11-22 | 15 | 1398 | 53 | 463 | 176 | 1500 |
-| last720d | 2024-11-27 | 26 | 2552 | 53 | 1213 | 353 | 2602 |
+| 30d | 2026-10-20 | 1 | 179 | 20 | 42 | 25 | 197 |
+| last60d | 2026-09-20 | 3 | 336 | 30 | 85 | 39 | 361 |
+| 90d | 2026-08-21 | 4 | 427 | 43 | 115 | 51 | 474 |
+| last180d | 2026-05-23 | 9 | 785 | 47 | 220 | 88 | 849 |
+| 360d | 2025-11-24 | 15 | 1410 | 49 | 468 | 171 | 1522 |
+| last720d | 2024-11-29 | 26 | 2563 | 49 | 1216 | 347 | 2610 |
 
 ## Release 资产
 
@@ -86,6 +86,20 @@ x install nushell
 | [nu-0.117.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-x86_64-unknown-linux-musl.tar.gz) | 88.5 MiB | `native/linux/x64/musl` |
 | [SHA256SUMS](https://github.com/nushell/nushell/releases/download/0.117.0/SHA256SUMS) | 1.6 KiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/nushell) 上共有 **170** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**70** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `0.117.0` | ✅ latest |
+| Homebrew | `0.117.0` | ✅ latest |
+| Fedora rawhide | `0.99.1` | ⚠️ outdated |
+| Nix unstable | `0.116.1` | ⚠️ outdated |
+| Void | `0.117.0` | ✅ latest |
+| Alpine edge | `0.104.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.117.0` | ✅ latest |
+
 ## 改进这些数据
 
 nushell 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `nushell` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -95,4 +109,4 @@ nushell 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:59:33Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T10:17:39Z._

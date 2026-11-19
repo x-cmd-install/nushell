@@ -14,11 +14,11 @@ x install nushell
 
 ## Code insight
 
-Total: **430,899** lines of code across **2150** files in the top 5 languages.
+Total: **432,518** lines of code across **2151** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 426,446 | 14,014 | 48,946 | 2002 |
+| Rust | 428,065 | 14,065 | 49,069 | 2003 |
 | Toml | 2,296 | 121 | 335 | 57 |
 | Json | 624 | 0 | 4 | 53 |
 | Yaml | 589 | 40 | 47 | 36 |
@@ -26,13 +26,13 @@ Total: **430,899** lines of code across **2150** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6 / 10**
+Overall score: **6.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 8/25 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `0.117.0` (2026-11-10)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-18
 - **Assets in release**: 16
 
 ## Popularity
 
-- **Stars**: 41,023 · **Forks**: 2,354 · **Open issues**: 7,431 · **Contributors**: 929
+- **Stars**: 41,036 · **Forks**: 2,359 · **Open issues**: 7,435 · **Contributors**: 934
 
 ## Totals (cumulative)
 
-- **Releases**: 128 · **Merged PRs**: 9546 · **Open PRs**: 53 · **Closed issues**: 6764 · **Open issues**: 667 · **Commits**: 12213
+- **Releases**: 128 · **Merged PRs**: 9565 · **Open PRs**: 49 · **Closed issues**: 6774 · **Open issues**: 661 · **Commits**: 12233
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 1 | 165 | 22 | 40 | 24 | 175 |
-| last60d | 2026-09-18 | 3 | 319 | 34 | 81 | 40 | 339 |
-| 90d | 2026-08-19 | 4 | 413 | 46 | 110 | 53 | 452 |
-| last180d | 2026-05-21 | 9 | 773 | 50 | 216 | 90 | 827 |
-| 360d | 2025-11-22 | 15 | 1398 | 53 | 463 | 176 | 1500 |
-| last720d | 2024-11-27 | 26 | 2552 | 53 | 1213 | 353 | 2602 |
+| 30d | 2026-10-20 | 1 | 179 | 20 | 42 | 25 | 197 |
+| last60d | 2026-09-20 | 3 | 336 | 30 | 85 | 39 | 361 |
+| 90d | 2026-08-21 | 4 | 427 | 43 | 115 | 51 | 474 |
+| last180d | 2026-05-23 | 9 | 785 | 47 | 220 | 88 | 849 |
+| 360d | 2025-11-24 | 15 | 1410 | 49 | 468 | 171 | 1522 |
+| last720d | 2024-11-29 | 26 | 2563 | 49 | 1216 | 347 | 2610 |
 
 ## Release assets
 
@@ -86,6 +86,20 @@ Lowest-scoring checks:
 | [nu-0.117.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/nushell/nushell/releases/download/0.117.0/nu-0.117.0-x86_64-unknown-linux-musl.tar.gz) | 88.5 MiB | `native/linux/x64/musl` |
 | [SHA256SUMS](https://github.com/nushell/nushell/releases/download/0.117.0/SHA256SUMS) | 1.6 KiB | `other` |
 
+## Distribution status
+
+Reported by **170** distros on [repology.org](https://repology.org/project/nushell). **19** are ✅ on the latest upstream release, **70** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `0.117.0` | ✅ latest |
+| Homebrew | `0.117.0` | ✅ latest |
+| Fedora rawhide | `0.99.1` | ⚠️ outdated |
+| Nix unstable | `0.116.1` | ⚠️ outdated |
+| Void | `0.117.0` | ✅ latest |
+| Alpine edge | `0.104.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.117.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for nushell lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `nushell` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -95,4 +109,4 @@ Install metadata for nushell lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:59:31Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:17:38Z._
