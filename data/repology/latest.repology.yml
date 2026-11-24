@@ -1,3 +1,10 @@
+- repo: homebrew
+  srcname: nushell
+  visiblename: nushell
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Modern shell for the GitHub era
 - repo: aerynos
   srcname: nushell
   visiblename: nushell
@@ -176,13 +183,6 @@
     - nibon7@163.com
   licenses:
     - MIT
-- repo: chocolatey
-  binname: nushell
-  visiblename: Nushell - A new type of shell
-  version: 0.117.0.20261114
-  origversion: null
-  status: untrusted
-  summary: A new type of shell
 - repo: alpine_3_23
   subrepo: community
   srcname: nushell
@@ -209,6 +209,14 @@
     - nibon7@163.com
   licenses:
     - MIT
+- repo: baulk
+  srcname: nu
+  binname: nu
+  visiblename: nu
+  version: 0.117.0
+  origversion: null
+  status: newest
+  summary: A modern shell written in Rust
 - repo: alpine_3_24
   subrepo: community
   srcname: nushell
@@ -303,6 +311,22 @@
     - MIT
   categories:
     - Terminals
+- repo: fedora_41
+  subrepo: updates
+  srcname: rust-nu
+  binnames:
+    - nu
+    - rust-nu-debuginfo
+    - rust-nu-debugsource
+  visiblename: rust-nu
+  version: 0.99.1
+  origversion: 0.99.1-11.fc41
+  status: outdated
+  summary: New type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: altsisyphus
   srcname: nushell
   binnames:
@@ -375,14 +399,6 @@
   summary: A new type of shell
   licenses:
     - MIT
-- repo: baulk
-  srcname: nu
-  binname: nu
-  visiblename: nu
-  version: 0.117.0
-  origversion: null
-  status: newest
-  summary: A modern shell written in Rust
 - repo: chimera
   subrepo: user
   srcname: nushell
@@ -460,6 +476,13 @@
   summary: Shell with a focus on structured data (query plugin)
   licenses:
     - MIT
+- repo: chocolatey
+  binname: nushell
+  visiblename: Nushell - A new type of shell
+  version: 0.117.0.20261114
+  origversion: null
+  status: untrusted
+  summary: A new type of shell
 - repo: chocolatey
   binname: nushell.install
   visiblename: Nushell - A new type of shell
@@ -596,35 +619,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: updates
-  srcname: rust-nu
-  binnames:
-    - nu
-    - rust-nu-debuginfo
-    - rust-nu-debugsource
-  visiblename: rust-nu
-  version: 0.99.1
-  origversion: 0.99.1-11.fc41
-  status: outdated
-  summary: New type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: nix_stable_24_05
-  srcname: nushellFull
-  visiblename: nushell
-  version: 0.93.0
-  origversion: null
-  status: outdated
-  summary: A modern shell written in Rust
-  maintainers:
-    - brightone@protonmail.com
-    - huyuumi.dev@gmail.com
-    - hi@joaquint.io
-  licenses:
-    - MIT
 - repo: fedora_42
   subrepo: release
   srcname: rust-nu
@@ -706,22 +700,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: rust-nu
-  binnames:
-    - nu
-    - rust-nu-debuginfo
-    - rust-nu-debugsource
-  visiblename: rust-nu
-  version: 0.99.1
-  origversion: 0.99.1-16.fc44
-  status: outdated
-  summary: New type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: nushell
   binnames:
@@ -737,6 +715,18 @@
     - MIT
   categories:
     - Unspecified
+- repo: openbsd
+  srcname: shells/nushell
+  binname: nushell
+  visiblename: shells/nushell
+  version: 0.116.1
+  origversion: null
+  status: outdated
+  summary: new type of shell
+  maintainers:
+    - volker@openbsd.org
+  categories:
+    - shells
 - repo: fedora_44
   subrepo: updates
   srcname: rust-nu
@@ -747,6 +737,22 @@
   visiblename: rust-nu
   version: 0.99.1
   origversion: 0.99.1-17.fc44
+  status: outdated
+  summary: New type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-nu
+  binnames:
+    - nu
+    - rust-nu-debuginfo
+    - rust-nu-debugsource
+  visiblename: rust-nu
+  version: 0.99.1
+  origversion: 0.99.1-16.fc44
   status: outdated
   summary: New type of shell
   licenses:
@@ -888,6 +894,30 @@
     - ZLIB
   categories:
     - app-shells
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: nushell
+  binnames:
+    - nushell
+    - nushell-debuginfo
+    - nushell-debugsource
+    - nushell-plugin_custom_values
+    - nushell-plugin_example
+    - nushell-plugin_formats
+    - nushell-plugin_gstat
+    - nushell-plugin_inc
+    - nushell-plugin_polars
+    - nushell-plugin_query
+    - nushell-plugin_stress_internals
+  visiblename: nushell
+  version: 0.117.0
+  origversion: 0.117.0-1.1
+  status: newest
+  summary: A new type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: gentoo
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -927,13 +957,6 @@
   version: 0.117.0
   origversion: null
   status: newest
-  summary: Modern shell for the GitHub era
-- repo: homebrew
-  srcname: nushell
-  visiblename: nushell
-  version: HEAD
-  origversion: null
-  status: rolling
   summary: Modern shell for the GitHub era
 - repo: liguros_stable
   srcname: app-shells/nushell
@@ -985,19 +1008,6 @@
     - ZLIB
   categories:
     - app-shells
-- repo: nix_stable_24_11
-  srcname: nushell
-  visiblename: nushell
-  version: 0.100.0
-  origversion: null
-  status: outdated
-  summary: Modern shell written in Rust
-  maintainers:
-    - brightone@protonmail.com
-    - huyuumi.dev@gmail.com
-    - hi@joaquint.io
-  licenses:
-    - MIT
 - repo: liguros_stable
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -1073,6 +1083,27 @@
     - ZLIB
   categories:
     - app-shells
+- repo: opensuse_shells_tumbleweed
+  srcname: nushell
+  binnames:
+    - nushell
+    - nushell-plugin_custom_values
+    - nushell-plugin_example
+    - nushell-plugin_formats
+    - nushell-plugin_gstat
+    - nushell-plugin_inc
+    - nushell-plugin_polars
+    - nushell-plugin_query
+    - nushell-plugin_stress_internals
+  visiblename: nushell
+  version: 0.117.0
+  origversion: 0.117.0-74.3
+  status: newest
+  summary: A new type of shell
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: liguros_develop
   srcname: app-shells/nushell
   visiblename: app-shells/nushell
@@ -1168,9 +1199,9 @@
   srcname: nushell
   binname: nushell
   visiblename: nushell
-  version: 0.116.1
-  origversion: 0.116.1-1
-  status: outdated
+  version: 0.117.0
+  origversion: 0.117.0-2
+  status: newest
   summary: A new type of shell
   licenses:
     - MIT
@@ -1203,6 +1234,32 @@
   origversion: null
   status: outdated
   summary: A modern shell written in Rust
+  maintainers:
+    - brightone@protonmail.com
+    - huyuumi.dev@gmail.com
+    - hi@joaquint.io
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: nushellFull
+  visiblename: nushell
+  version: 0.93.0
+  origversion: null
+  status: outdated
+  summary: A modern shell written in Rust
+  maintainers:
+    - brightone@protonmail.com
+    - huyuumi.dev@gmail.com
+    - hi@joaquint.io
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: nushell
+  visiblename: nushell
+  version: 0.100.0
+  origversion: null
+  status: outdated
+  summary: Modern shell written in Rust
   maintainers:
     - brightone@protonmail.com
     - huyuumi.dev@gmail.com
@@ -1264,63 +1321,6 @@
     - koffydrop@github
   licenses:
     - MIT
-- repo: openbsd
-  srcname: shells/nushell
-  binname: nushell
-  visiblename: shells/nushell
-  version: 0.116.1
-  origversion: null
-  status: outdated
-  summary: new type of shell
-  maintainers:
-    - volker@openbsd.org
-  categories:
-    - shells
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: nushell
-  binnames:
-    - nushell
-    - nushell-debuginfo
-    - nushell-debugsource
-    - nushell-plugin_custom_values
-    - nushell-plugin_example
-    - nushell-plugin_formats
-    - nushell-plugin_gstat
-    - nushell-plugin_inc
-    - nushell-plugin_polars
-    - nushell-plugin_query
-    - nushell-plugin_stress_internals
-  visiblename: nushell
-  version: 0.117.0
-  origversion: 0.117.0-1.1
-  status: newest
-  summary: A new type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: opensuse_shells_tumbleweed
-  srcname: nushell
-  binnames:
-    - nushell
-    - nushell-plugin_custom_values
-    - nushell-plugin_example
-    - nushell-plugin_formats
-    - nushell-plugin_gstat
-    - nushell-plugin_inc
-    - nushell-plugin_polars
-    - nushell-plugin_query
-    - nushell-plugin_stress_internals
-  visiblename: nushell
-  version: 0.117.0
-  origversion: 0.117.0-74.3
-  status: newest
-  summary: A new type of shell
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: pacstall
   srcname: nushell-bin
   binname: nushell-bin
